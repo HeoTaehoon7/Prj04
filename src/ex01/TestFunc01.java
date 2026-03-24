@@ -28,7 +28,8 @@ public class TestFunc01 {
 	// 전역변수 : global   class 에 전역변수생성 위치(모든함수의 위)에서 만든변수
 	//            class 가 끝날때 까지 존재
 	//            함수가 전역변수를 공유하기 위해
-	// 전역변수 영역
+	// 전역변수 영역 - Field 변수(java, C#), member 변수(c++)
+	// UML  :  속성(Attribute)
 	static  int     num;
 	static  String  name;
 	static  int     kor;
@@ -47,7 +48,7 @@ public class TestFunc01 {
 
 	}
 
-	// input()
+	// input() - 메소드(java, c#), UML(operation), 멤버함수(C++)
 	private static void input() {
 		System.out.println("input");
 		
