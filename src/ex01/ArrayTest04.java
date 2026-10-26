@@ -18,6 +18,7 @@ public class ArrayTest04 {
 			System.out.println( bts[i] );
 		}
 		
+		
 	}
 
 }
